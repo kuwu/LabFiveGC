@@ -16,15 +16,14 @@ public class LasVegas {
         getUserInput(scan);
 
         // validating for y / n using Parse Class
-        while (parse.parse()){
+        while (parse.parse()) {
             // if true, get input and roll dice again
             getUserInput(scan);
         }
 
 
-
-
     }
+
     // using Math.random to create the dice rolls
     public static int getTheRoll(int dieSides) {
         int dieRoll = (int) (Math.random() * ((dieSides - 1) + 1) + 1);
@@ -32,7 +31,7 @@ public class LasVegas {
     }
 
     // using Method to group Scanner, input, dice rolls and printout
-    public static void getUserInput(Scanner scan){
+    public static void getUserInput(Scanner scan) {
         System.out.println("How many sides should the dice have?");
         int sides = scan.nextInt();
 
