@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 /**
+ * This program simulates rolling dice where the number of die sides is
+ * defined by the user.
  * Created by kuwu on 2017/06/29.
  */
 public class LasVegas {

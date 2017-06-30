@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 /**
+ * Created a validation class for check y / n.
  * Created by kuwu on 2017/06/29.
  */
 public class Parse {
